@@ -3,8 +3,8 @@ import yfinance as yf
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, LSTM, Dropout, Bidirectional
+from keras.models import Sequential
+from keras.layers import Dense, LSTM, Dropout, Bidirectional
 import plotly.graph_objects as go
 import datetime as dt
 
